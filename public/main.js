@@ -64,22 +64,22 @@ $(document).ready(function() {
     var $name = $('<div class="name">Name: ' + pet.name + '<div>');
     $randomPet.append($name);
 
-    var $animal = $('<div class="animal">Type:' + pet.animal + '<div>');
+    var $animal = $('<div class="animal">Type: ' + pet.animal + '<div>');
     $randomPet.append($animal);
 
-    var $breeds = $('<div class="breeds">Breeds:' + pet.breeds.join(', ') + '<div>');
+    var $breeds = $('<div class="breeds">Breeds: ' + pet.breeds.join(', ') + '<div>');
     $randomPet.append($breeds);
 
     // var $description = $('<div class="description">Description:' + pet.description + '<div>');
     // $randomPet.append($description);
 
-    var $sex = $('<div class="sex">Sex:' + pet.sex + '<div>');
+    var $sex = $('<div class="sex">Sex: ' + pet.sex + '<div>');
     $randomPet.append($sex);
 
-    var $size = $('<div class="size">Size:' + pet.size + '<div>');
+    var $size = $('<div class="size">Size: ' + pet.size + '<div>');
     $randomPet.append($size);
 
-    var $age = $('<div class="age">Age:' + pet.age + '<div>');
+    var $age = $('<div class="age">Age: ' + pet.age + '<div>');
     $randomPet.append($age);
   }
 
