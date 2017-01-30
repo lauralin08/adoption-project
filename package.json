@@ -1,0 +1,15 @@
+{
+  "name": "random-adoptable-pet",
+  "version": "1.0.0",
+  "description": "A practice website for finding random adoptable pets using the Petfinder API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laura Lin and Edwin Lin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}

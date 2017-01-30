@@ -1,0 +1,36 @@
+body {
+  background-color: lightblue;
+}
+
+#main {
+  margin: 50px auto;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+
+.random-pet {
+  text-align: center;
+}
+.image {
+  height: 300px;
+  display: inline-block;
+}
+
+.pet-search-container {
+  text-align: center;
+}
+
+.pet-search-text {
+  text-align: center;
+}
+.pet {
+  color: red;
+}
+
+.pet-search-field,
+.pet-search-submit {
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}

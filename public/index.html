@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Adoptable Pet of the Day</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="main">
+      <div class="random-pet"></div>
+      <div class="pet-search-container">
+        <div class="pet-search-text">Select a type of Pet:</div>
+        <input class="previous-pet-submit" type="button" value="See Previous Pet">
+        <input class="next-pet-submit" type="button" value="See Next Pet">
+        <select class="pet-search-field">
+          <option value="any">Any</option>
+          <option value="barnyard">Barnyard</option>
+          <option value="bird">Bird</option>
+          <option value="cat">Cat</option>
+          <option value="dog">Dog</option>
+          <option value="horse">Horse</option>
+          <option value="pig">Pig</option>
+          <option value="smallfurry">Small Furry</option>
+        </select>
+        <input class="pet-search-submit" type="button" value="Find a new adoptable pet!">
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
